@@ -137,7 +137,7 @@
 
    这里的含义是，如果我们_pBuf为空，也就是我们还没有创建池，那么我们就需要初始化一个内存池出来，初始化内存池的方法为initMemory()。下图为初始化的一整块的内存池图：
 
-   ![](https://github.com/HUIhuihuil/pool/blob/master/%E5%86%85%E5%AD%98%E6%B1%A0%E7%94%B3%E8%AF%B7%E9%87%8A%E6%94%BE%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg)
+   ![avatar](https://github.com/HUIhuihuil/pool/blob/master/%E5%88%9D%E5%A7%8B%E5%8C%96%E5%90%8E%E7%9A%84%E5%86%85%E5%AD%98%E6%B1%A0.jpg)
 
    接下来就是我们根据phead来决定怎么使用内存池，如果phead不为空，说明我们的池还没有用完，下图展示申请和释放的过程：
 
